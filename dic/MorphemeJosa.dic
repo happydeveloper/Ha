@@ -1,0 +1,239 @@
+// -----------------------------------------------------------------------------
+// 격조사 : 체언 뒤에 붙어서 문장 안에서의 체언의 구실을 하면서 문장의 의미가 드러나도록 하는 말이다.
+// -----------------------------------------------------------------------------
+
+// 주격 조사
+은:{[은/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,EM,SY)&(체언)@(자음,체언)}
+는:{[는/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,EM,SY)&(체언)@(모음,체언)}
+이:{[이/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(자음,체언)}
+가:{[가/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,EM,SY)&(체언)@(모음,체언)}
+가:{[가/JO/S/CL/SB]#(JO)&(체언)}
+가:{[가/JO/S/CL/SB]#(EM)}
+라서:{[라서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(모음,체언)}
+이라서:{[이라서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(자음,체언)}
+께서:{[께서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,SY)}
+께옵서:{[께옵서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,SY)}
+//에서:{[에서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,SY)}
+서:{[서/JO/S/CL/SB]#(NN,NP,NX,NU,UM,NR,SY)}
+
+// 목적격 조사
+을:{[을/JO/S/CL/OB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(자음,체언)@(자음)}
+를:{[를/JO/S/CL/OB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(자음,체언)@(모음)}
+
+
+// 보격 조사
+//이:{[이/JO/S/CL/CO]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음)&(체언)}
+//가:{[가/JO/S/CL/CO]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(모음)&(체언)}
+
+// 서술격 조사
+//이다:{[이다/JO/S/CL/CP]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)}
+
+// 관형격 조사
+의:{[의/JO/S/CL/DT]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(관형어)}
+
+// 부사격 조사
+가:{[가/JO/S/CL/AD]#(AD)&(부사어,체언)@(모음)}
+다가:{[다가/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언,모음)}
+에:{[에/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)}
+엘랑:{[엘랑/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+에서:{[에서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+서:{[서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+에게:{[에게/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+에게로:{[에게로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+에게서:{[에게서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+더러:{[더러/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+보고:{[보고/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+에게다:{[에게다/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+께:{[께/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(체언)}
+한테:{[한테/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM)&(부사어,체언)@(체언)}
+로:{[로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(모음)}
+로:{[로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(ㄹ)}
+루:{[로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(모음)}
+루:{[로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(ㄹ)}
+으로:{[으로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(자음,체언)}
+로서:{[로서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(모음)}
+로서:{[로서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(ㄹ)}
+으로서:{[으로서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(자음,체언)}
+로써:{[로써/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(모음)}
+로써:{[로써/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(ㄹ)}
+으로써:{[으로써/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(자음,체언)}
+처럼:{[처럼/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(체언)}
+같이:{[같이/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(체언)}
+만큼:{[만큼/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(체언)}
+만치:{[만치/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(체언)}
+보다:{[보다/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(체언)}
+라고:{[라고/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,JO,EM)&(부사어,체언)@(모음,체언)}
+이라고:{[이라고/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM)&(부사어,체언)@(자음,체언)}
+라:{[라/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM)&(부사어,체언)@(모음,체언)}
+이라:{[이라/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM)&(부사어,체언)@(자음,체언)}
+라는:{[라는/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM)&(관형어,체언)@(모음,체언)}
+이라는:{[이라는/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM)&(관형어,체언)@(자음,체언)}
+대로:{[대로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM)&(부사어,체언)@(체언)}
+데로:{[대로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,EM)&(부사어,체언)@(체언)}
+토록:{[토록/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,DT)&(부사어)}
+에다가:{[에다가/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,EM)&(부사어)@(체언)}
+
+
+// 부사격 조사, 인용에 사용
+라:{[라/JO/S/CL/AD]#(EM)&(부사어,체언)@(모음)}
+라고:{[라고/JO/S/CL/AD]#(EM)&(부사어,체언)@(모음)}
+라는:{[라는/JO/S/CL/AD]#(EM)&(부사어,체언)@(모음)}
+
+
+// 호격 조사
+아:{[아/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(자음,체언)}
+야:{[야/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(모음,체언)}
+여:{[여/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(모음,체언)}
+이여:{[이여/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(자음,체언)}
+시여:{[시여/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(모음,체언)}
+이시여:{[이시여/JO/S/CL/EX]#(NN,NP,NX,NU,UM,NR,EP,SY,EM)@(자음,체언)}
+
+
+
+// -----------------------------------------------------------------------------
+// 보조사 : 체언의 어느 격으로 한정하지 않고 여러 문장 성분에 두루 쓰여 그 단어에 특별한 뜻을 더해주는 조사
+// -----------------------------------------------------------------------------
+은:{[은/JO/S/SU]#(JO,EM,SY)&(자음)@(자음)}
+는:{[는/JO/S/SU]#(JO,EM,SY)&(자음)@(모음)}
+서:{[서/JO/S/SU]#(JO,EM,SY)&(자음)@(모음)}
+도:{[도/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)}
+두:{[두/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)}
+만:{[만/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)}
+라도:{[라도/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)@(모음)}
+말고:{[말고/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM)&(체언)@(체언)}
+밖에:{[밖에/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM)&(체언)@(체언)}
+이라도:{[이라도/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)@(자음)}
+조차:{[조차/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)}
+치고:{[치고/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)@(체언)}
+부터:{[부터/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)}
+까지:{[까지/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)}
+나:{[나/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,SY)@(모음,체언)}
+나:{[나/JO/S/SU]#(AD,EM,JO)@(모음,부사어)}
+이나:{[이나/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(자음,체언)}
+마저:{[마저/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(체언)}
+밖에:{[밖에/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(체언)}
+뿐:{[뿐/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(체언)}
+들:{[들/JO/S/SU]#(AD,EM)&(체언)%(부사어)}
+//하고:{[하고/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,JO)&(체언)@(체언)}
+//하며:{[하며/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,JO)&(체언)@(체언)}
+//마다:{[마다/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,JO)&(체언)@(체언)}
+하고:{[하고/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY)&(체언)@(체언)}
+하며:{[하며/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY)&(체언)@(체언)}
+마다:{[마다/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY)&(체언)@(체언)}
+커녕:{[커녕/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,JO)&(체언)}
+엔들:{[엔들/JO/S/SU]#(NN,NP,NX,UM,NR,SY)&(체언)@(체언)}
+일랑:{[일랑/JO/S/SU]#(NN,NP,NX,UM,NR,SY)&(체언)@(체언)}
+야:{[야/JO/S/SU]#(NN,NP,NX,UM,NR,SY,JO,EM)&(체언)@(모음)}
+이야:{[이야/JO/S/SU]#(NN,NP,NX,UM,NR,SY,JO)&(체언)@(자음,체언)}
+나마:{[나마/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)@(모음,체언)}
+이나마:{[이나마/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언)@(자음,체언)}
+든:{[든/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)@(모음)}
+든지:{[든지/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)@(모음)}
+이든:{[이든/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)@(자음)}
+이든지:{[이든지/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)@(자음)}
+야말로:{[야말로/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(모음,체언)}
+이야말로:{[이야말로/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+라든지:{[라든지/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+이라든지:{[이라든지/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+라야:{[라야/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(모음,체언)}
+이라야:{[이라야/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+인들:{[인들/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+인즉:{[인즉/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+인즉슨:{[인즉슨/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)@(자음,체언)}
+
+
+
+// -----------------------------------------------------------------------------
+// 접속 조사 : 두 단어를 같은 자격으로 이어 주는 구실을 하는 조사
+// -----------------------------------------------------------------------------
+와:{[와/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM)&(체언)@(모음,체언)}
+와:{[와/JO/S/CN]#(JO)&(체언)@(모음)}
+과:{[과/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM)&(체언)@(자음,체언)}
+과:{[과/JO/S/CN]#(JO)&(체언)@(자음)}
+이며:{[이며/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+이나:{[이나/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+며:{[며/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(모음,체언)}
+이고:{[이고/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+이구:{[이구/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+고:{[고/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(모음,체언)}
+랑:{[랑/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(모음,체언)}
+이랑:{[이랑/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+에다:{[에다/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(체언)}
+요:{[요/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(모음,체언)}
+이요:{[이요/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+니:{[니/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(모음,체언)}
+이니:{[이니/JO/S/CN]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(체언)@(자음,체언)}
+
+
+
+// -----------------------------------------------------------------------------
+// 조사 + 조사
+// -----------------------------------------------------------------------------
+에를:{[에/JO/S/CL/AD+를/JO/S/CL/OB]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(체언)}
+에로:{[에/JO/S/CL/AD+로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+까지로:{[까지/JO/S/SU+로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+까지루:{[까지/JO/S/SU+루/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+까지로서:{[까지/JO/S/SU+로서/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+까지로써:{[까지/JO/S/SU+로써/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+만으로:{[만/JO/S/SU+으로/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언,부사어)@(체언)}
+에게보다:{[에게/JO/S/CL/AD+보다/JO/S/CL/AD]#(NN,NP,NX,NU,UM,NR,SY,EM)&(부사어,체언)@(체언)}
+
+
+
+// -----------------------------------------------------------------------------
+// 조사의 준말
+// -----------------------------------------------------------------------------
+엔:{[에/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM)&(부사어,체언)@(체언)}
+에겐:{[에게/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM)&(부사어,체언)@(체언)}
+에게선:{[에게서/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM)&(부사어,체언)@(체언)}
+에선:{[에서/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM)&(부사어,체언)@(체언)}
+까진:{[까지/JO/S/SU+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언,부사어)@(체언)}
+께옵선:{[께옵서/JO/S/CL/SB+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY)&(체언,부사어)@(체언)}
+보단:{[보다/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,EM)&(부사어,체언)@(체언)}
+에단:{[에다/JO/S/CN+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY)&(체언)@(체언)}
+부턴:{[부터/JO/S/SU+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY)&(체언)@(체언)}
+다가는:{[다가/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,EM)&(체언)@(체언)}
+만으론:{[만/JO/S/SU+으로/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM,SY,AD,DT,DN)&(체언,부사어)@(체언)}
+밖엔:{[밖에/JO/S/SU+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM)&(체언)@(체언)}
+보곤:{[보고/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,JO,EM)&(체언)@(체언)}
+라곤:{[라고/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,SY,EM,JO)&(부사어,체언)@(모음,체언)}
+이라곤:{[이라고/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(자음,체언)}
+에다간:{[에다가/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(체언)}
+엘:{[에/JO/S/CL/AD+를/JO/S/CL/OB]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(체언)}
+으로선:{[으로서/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(체언)}
+으론:{[으로/JO/S/CL/AD+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(체언)}
+하곤:{[하고/JO/S/SU+는/JO/S/SU]#(NN,NP,NX,NU,UM,NR,EM,JO)&(부사어,체언)@(체언)}
+
+
+
+// -----------------------------------------------------------------------------
+// 서술격 조사
+// -----------------------------------------------------------------------------
+// 보조사 + 서술격 조사 생략 2007-07-18
+이:{[이/CP/S]#(EM)&(이)@(체언)}
+이:{[이/CP/S]#(NN,NP,NX,NU,UM,NR,SY,JO,AD)&(이)}
+
+// '이'와 어미의 결합형
+이랄:{[이/CP/S+라고/EM/S/CN/DP+하/VV/S+ㄹ/EM/S/FM/DT]#(NN,NP,NX,NU,UM,NR,SY,EM)@(체언,자음)}
+인:{[이/CP/S+ㄴ/EM/S/FM/DT]#(EM)&(관형어,ㄴ)@(체언)}
+인:{[이/CP/S+ㄴ/EM/S/FM/DT]#(NN,NP,NX,NU,UM,NR,SY,JO,AD)&(관형어,ㄴ)}
+일:{[이/CP/S+ㄹ/EM/S/FM/DT]#(EM)&(관형어,ㄹ)@(체언)}
+일:{[이/CP/S+ㄹ/EM/S/FM/DT]#(NN,NP,NX,NU,UM,NR,SY,JO,AD)&(관형어,ㄹ)}
+임:{[이/CP/S+ㅁ/EM/S/FM/NN]#(EM)&(체언,ㅁ)@(체언)}
+임:{[이/CP/S+ㅁ/EM/S/FM/NN]#(NN,NP,NX,NU,UM,NR,SY,JO,AD)&(체언,ㅁ)}
+입:{[이/CP/S]#(EM)&(ㅂ)@(체언)%(체언)}
+입:{[이/CP/S]#(NN,NP,NX,NU,UM,NR,SY,JO,AD)&(ㅂ)}
+
+// '이'의 생략형
+고:{[이/CP/S+고/EM/S/CN/EQ]#(NN,NP,NX,NU,UM,NR,SY,JO,EM,AD)&(양성)}
+네:{[이/CP/S+네/EM/S/ED/NM]#(NN,NX,NU,SY,EM)@(체언,모음)}
+다:{[이/CP/S+다/EM/S/ED/NM]#(NN,NX,NU,SY,EM)@(체언,모음)}
+라:{[이/CP/S+라/EM/S/ED/NM]#(NN,NP,NX,NU,UM,NR,SY,EM)@(모음)%(체언)}
+랍니다:{[이/CP/S+랍니다/EM/S/ED/NM]#(NN,NP,NX,NU,UM,NR,SY,EM)@(모음,체언)%(체언)}
+랍니당:{[이/CP/S+랍니다/EM/S/ED/NM]#(NN,NP,NX,NU,UM,NR,SY,EM)&(자음)@(모음,체언)%(체언)}
+로다:{[이/CP/S+로다/EM/S/ED/EX]#(NN,NP,NX,NU,NR,EM)@(체언,모음)}
+면:{[이/CP/S+면/EM/S/CN/EQ]#(NN,NP,NX,NU,SY,EM)&(자음)@(체언,모음)}
+였:{[이/CP/S+었/EP/S/TM]#(NN,NP,NX,NU,UM,NR,SY,EM)&(자음)@(체언,모음)}
+예요:{[이/CP/S+에요/EM/S/ED/NM]#(NN,NP,NX,NU,UM,NR,SY,JO,EM,AD)&(양성)}
+요:{[이/CP/S+요/EM/S/ED/NM]#(NN,NP,NX,NU,UM,NR,SY,JO,EM,AD)&(양성)}
+냐:{[이/CP/S+냐/EM/S/ED/QT]#(NN,NP,NX,NU,UM,NR,SY)&(모음)}
